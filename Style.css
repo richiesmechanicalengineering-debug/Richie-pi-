@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1e293b;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #38bdf8;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.modules button {
+    padding: 15px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #3b82f6;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.modules button:hover {
+    background-color: #2563eb;
+}
+
+#moduleContent {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    min-height: 150px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1e293b;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
