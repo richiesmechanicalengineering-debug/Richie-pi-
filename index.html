@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richie Pi 7-in-1 App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Richie Pi 7-in-1 App</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Modules Buttons -->
+        <div class="modules">
+            <button onclick="openModule('learning')">Learning</button>
+            <button onclick="openModule('creativity')">Creativity</button>
+            <button onclick="openModule('robotics')">Robotics</button>
+            <button onclick="openModule('ai')">AI Experiments</button>
+            <button onclick="openModule('utilities')">Utilities</button>
+            <button onclick="openModule('fun')">Fun</button>
+            <button onclick="openModule('productivity')">Productivity</button>
+        </div>
+
+        <!-- Module Display Area -->
+        <div id="moduleContent">
+            <p>Welcome! Click a module above to start.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Richie Pi</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
